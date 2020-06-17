@@ -877,6 +877,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 796716718974048612, guid: 930dcd59260ad7a4c885b7ea3bb6588a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 796716718974048612, guid: 930dcd59260ad7a4c885b7ea3bb6588a,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 49aa2e3f4db4642468df41671b27bdb2, type: 2}
     - target: {fileID: 796716718974048613, guid: 930dcd59260ad7a4c885b7ea3bb6588a,
         type: 3}
       propertyPath: m_Name

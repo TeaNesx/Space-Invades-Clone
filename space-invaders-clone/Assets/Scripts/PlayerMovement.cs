@@ -16,10 +16,20 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate() {
 
+        //Get value from axis
+
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
+
+
         Vector2 direction = new Vector2(h, v);
 
         rigidbody.velocity = direction.normalized * speed;
+
+        // Set Animation if paramete isFlyingLeft is true // SetBool(string name, bool value);
+
+        GetComponent<Animator>().SetBool("isFlyingLeft", h < 0);
+        GetComponent<Animator>().SetBool("isFlyingRight", h > 0);
+        GetComponent<Animator>().SetBool("isFlyingTop", v > 0);
     }
 }
