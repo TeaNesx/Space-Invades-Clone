@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 796716718974048612}
   - component: {fileID: 9051680689427120465}
   - component: {fileID: 3429543165778583901}
+  - component: {fileID: 137507019}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -94,7 +95,7 @@ Animator:
   m_GameObject: {fileID: 796716718974048613}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 69d7d9c5a128074449d60593cb261c24, type: 2}
+  m_Controller: {fileID: 9100000, guid: 49aa2e3f4db4642468df41671b27bdb2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -150,3 +151,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4, y: 2.47}
   m_EdgeRadius: 0
+--- !u!114 &137507019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796716718974048613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f5caf768c42624f8b4fabdb2f65951, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10

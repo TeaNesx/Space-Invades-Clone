@@ -7,14 +7,16 @@ public class PlayerMovement : MonoBehaviour
 
     public float speed = 10f;
     Rigidbody2D rigidbody;
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
-    private void FixedUpdate() {
+    void FixedUpdate() {
 
         //Get value from axis
 
@@ -28,8 +30,8 @@ public class PlayerMovement : MonoBehaviour
 
         // Set Animation if paramete isFlyingLeft is true // SetBool(string name, bool value);
 
-        GetComponent<Animator>().SetBool("isFlyingLeft", h < 0);
-        GetComponent<Animator>().SetBool("isFlyingRight", h > 0);
-        GetComponent<Animator>().SetBool("isFlyingTop", v > 0);
+        animator.SetBool("isFlyingLeft", h < 0);
+        animator.SetBool("isFlyingRight", h > 0);
+        animator.SetBool("isFlyingTop", v > 0);
     }
 }
