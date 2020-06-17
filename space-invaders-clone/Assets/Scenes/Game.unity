@@ -215,25 +215,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91737180}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &137507013 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 796716718974048613, guid: 930dcd59260ad7a4c885b7ea3bb6588a,
-    type: 3}
-  m_PrefabInstance: {fileID: 796716717105946013}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &137507019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137507013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19f5caf768c42624f8b4fabdb2f65951, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
 --- !u!1 &340848957
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,6 +403,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 391067637}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &431257855 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8142084325688917617, guid: b600226fbfa9ecd4592526711720b864,
+    type: 3}
+  m_PrefabInstance: {fileID: 5983094876470789965}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,6 +795,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 910997760, guid: 1b10ddb9a9776aa41adfd5ebe7916d77, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 1841807549}
     - target: {fileID: 3237298242817948175, guid: 1b10ddb9a9776aa41adfd5ebe7916d77,
         type: 3}
       propertyPath: m_Name
@@ -877,16 +868,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 796716718974048612, guid: 930dcd59260ad7a4c885b7ea3bb6588a,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 796716718974048612, guid: 930dcd59260ad7a4c885b7ea3bb6588a,
-        type: 3}
-      propertyPath: m_Controller
+    - target: {fileID: 137507020, guid: 930dcd59260ad7a4c885b7ea3bb6588a, type: 3}
+      propertyPath: bullet
       value: 
-      objectReference: {fileID: 9100000, guid: 49aa2e3f4db4642468df41671b27bdb2, type: 2}
+      objectReference: {fileID: 1174077928}
     - target: {fileID: 796716718974048613, guid: 930dcd59260ad7a4c885b7ea3bb6588a,
         type: 3}
       propertyPath: m_Name
@@ -1025,6 +1010,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 721181494, guid: 088875e15fe79f7458f8bb9f6a113ad0, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 431257855}
     - target: {fileID: 2839346278711648910, guid: 088875e15fe79f7458f8bb9f6a113ad0,
         type: 3}
       propertyPath: m_Name
