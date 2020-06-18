@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1230325530}
   - component: {fileID: 1230325531}
+  - component: {fileID: 1230325532}
   m_Layer: 0
   m_Name: BulletSpawnPoint
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230325529}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.5, z: 0}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4485664407920912258}
@@ -46,6 +47,19 @@ MonoBehaviour:
   bullet: {fileID: 626136691527106744, guid: 529417de9dd1acd4c9a4cbfaf205cb96, type: 3}
   interval: 1
   statingInvoke: 1
+--- !u!114 &1230325532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230325529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779123d72be51a242ba29cf911d9e151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vector: {x: 0, y: -4}
 --- !u!1 &3237298242817948175
 GameObject:
   m_ObjectHideFlags: 0
@@ -58,6 +72,7 @@ GameObject:
   - component: {fileID: 727813017688202715}
   - component: {fileID: 7100353958244134058}
   - component: {fileID: 234349036254743938}
+  - component: {fileID: 891463099}
   m_Layer: 0
   m_Name: Monster1
   m_TagString: Untagged
@@ -167,3 +182,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &891463099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3237298242817948175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779123d72be51a242ba29cf911d9e151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vector: {x: 0, y: -2}
