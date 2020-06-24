@@ -11,11 +11,12 @@ GameObject:
   - component: {fileID: 3895116151693908739}
   - component: {fileID: 3895116151693908738}
   - component: {fileID: 3895116151693908737}
+  - component: {fileID: 2558054406410582440}
   - component: {fileID: 3110174143330666465}
   - component: {fileID: 4764517024051495232}
   m_Layer: 0
   m_Name: BulletPlayerSpritesheet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,6 +105,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2558054406410582440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3895116151693908736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c445a35e7581d4d8f335824df1def8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!58 &3110174143330666465
 CircleCollider2D:
   m_ObjectHideFlags: 0
